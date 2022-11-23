@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-secondary  text-white relative leading-relaxed font-extralight;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary;
+  }
+  .nav {
+    @apply hover:text-pink cursor-pointer duration-300 transition-all ease-in-out;
+  }
+  .circle {
+    @apply absolute w-[400px] h-[400px]  rounded-full;
+  }
+}
